@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud.API", "src\crud.API\crud.API.csproj", "{2EDDFB9F-329B-4910-B21E-568EAF43DCBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud.BLL", "src\crud.BLL\crud.BLL.csproj", "{E5002E80-EFC6-4444-8DF0-9592C35F3886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud.DAL", "crud.DAL\crud.DAL.csproj", "{D43A8912-FE49-4539-BC2E-4A004ACEA552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EDDFB9F-329B-4910-B21E-568EAF43DCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDDFB9F-329B-4910-B21E-568EAF43DCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDDFB9F-329B-4910-B21E-568EAF43DCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDDFB9F-329B-4910-B21E-568EAF43DCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5002E80-EFC6-4444-8DF0-9592C35F3886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5002E80-EFC6-4444-8DF0-9592C35F3886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5002E80-EFC6-4444-8DF0-9592C35F3886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5002E80-EFC6-4444-8DF0-9592C35F3886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43A8912-FE49-4539-BC2E-4A004ACEA552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43A8912-FE49-4539-BC2E-4A004ACEA552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43A8912-FE49-4539-BC2E-4A004ACEA552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43A8912-FE49-4539-BC2E-4A004ACEA552}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40B57CEF-37EF-495A-9850-3724278338E3}
+	EndGlobalSection
+EndGlobal
